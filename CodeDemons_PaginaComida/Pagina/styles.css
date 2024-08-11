@@ -90,3 +90,112 @@
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+
+  
+
+
+
+ /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Estilo de la barra de navegación */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+      float: none;
+      display: block;
+  }
+}
+
+/* Estilo del carrusel */
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Estilo de la tarjeta */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 16px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+/* Estilo del título */
+.title {
+  color: grey;
+}
+
+/* Botón estilizado */
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* Ajustes responsivos para columnas */
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+      width: 100%;
+      display: block;
+  }
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Estilo del título del portafolio */
+.portfolio-title {
+  text-align: center;
+  margin: 20px 0;
+}
+

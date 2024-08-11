@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Creación de Platillos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <a href="index.html"><i class="fa fa-fw fa-home"></i> Inicio</a>
+        <a href="#"><i class="fa fa-fw fa-search"></i> Buscar</a>
+        <a href="#"><i class="fa fa-fw fa-envelope"></i> Contacto</a>
+        <a class="active" href="portafolio.html"><i class="fa fa-fw fa-user"></i> Portafolio</a>
+    </div>
+
+    <!-- Sección de Portafolio -->
+    <div class="container">
+        <h2 class="portfolio-title">portafolio de platillos fuertes</h2>
+        
+        <!-- Primer Carrusel: Platillos -->
+        <div id="portfolioCarousel" class="carousel slide card mb-5" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="\CodeDemons_PaginaComida\CodeDemons_PaginaComida\Multimedia\platillo1.jpg" class="d-block w-100" alt="Platillo 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Platillo 1</h5>
+                        <p>Descripción del platillo 1.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="\CodeDemons_PaginaComida\CodeDemons_PaginaComida\Multimedia\platillo2.jpg" class="d-block w-100" alt="Platillo 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Platillo 2</h5>
+                        <p>Descripción del platillo 2.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="\CodeDemons_PaginaComida\CodeDemons_PaginaComida\Multimedia\platillo.jpg" class="d-block w-100" alt="Platillo 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Platillo 3</h5>
+                        <p>Descripción del platillo 3.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
+        <!-- Segundo Carrusel: Postres -->
+        <h2 class="portfolio-title">Portafolio de Postres</h2>
+
+        <div id="dessertsCarousel" class="carousel slide card" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#dessertsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#dessertsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#dessertsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="\CodeDemons_PaginaComida\CodeDemons_PaginaComida\Multimedia\postre1.jpg" class="d-block w-100" alt="Postre 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Postre 1</h5>
+                        <p>Descripción del postre 1.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="\CodeDemons_PaginaComida\CodeDemons_PaginaComida\Multimedia\postre2.jpg" class="d-block w-100" alt="Postre 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Postre 2</h5>
+                        <p>Descripción del postre 2.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="\CodeDemons_PaginaComida\CodeDemons_PaginaComida\Multimedia\postre3.jpg" class="d-block w-100" alt="Postre 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Postre 3</h5>
+                        <p>Descripción del postre 3.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#dessertsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#dessertsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
